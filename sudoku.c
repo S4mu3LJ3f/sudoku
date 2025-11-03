@@ -260,20 +260,30 @@ short getin(void) {
 		}
 		switch (c[0]) {
 		case '\n':
+		case ' ':
 			return 100;
 		case '\e':
+		case 'q':
 			return -2;
 		case 'w':
 		case 'W':
+		case 'k':
+		case 'K':
 			return 101;
 		case 's':
 		case 'S':
+		case 'j':
+		case 'J':
 			return 102;
 		case 'd':
 		case 'D':
+		case 'l':
+		case 'L':
 			return 103;
 		case 'a':
 		case 'A':
+		case 'h':
+		case 'H':
 			return 104;
 		}
 	}
