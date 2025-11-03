@@ -631,11 +631,11 @@ void help(void) {
      solution if the input grid is a valid sudoku puzzle\n\
    \n\
    Input Methods:\n\
-   - Use arrow keys to move through\n\
-   - Press enter key to select an option\n\
+   - Use arrows/WASD/HJKL keys to move through\n\
+   - Press enter/spacebar key to select an option\n\
    - Use number keys to input numbers from 1 to 9\n\
    - Press delete/backspace key to delete an input\n\
-   - Press esc to open/close a menu or to go back\n\
+   - Press esc/q to open/close a menu or to go back\n\
    \n\
    ");
 	getin();
