@@ -1,5 +1,11 @@
 # Sudoku
 
+## Run
+``` sh
+make run
+```
+
+## Description
 A linux terminal based TUI sudoku which can generate and solve sudoku puzzles.
 The program uses termios library and ANSI escape sequences to simulate a graphical user interface.
 The user can scroll through using arrow keys and there is no need to press enter after each input as of conventional terminal input.

@@ -3,7 +3,10 @@ BIN=sudoku
 SRC=sudoku.c
 
 all:
-	$(CC) $(SRC) -o $(BIN)
+	$(CC) -Wall $(SRC) -o $(BIN)
 
 clean:
-	rm -f sudoku
+	rm -f $(BIN)
+
+run: all
+	./$(BIN)
